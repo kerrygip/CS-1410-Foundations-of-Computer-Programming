@@ -1,1 +1,40 @@
+End of chapter exercises
 
+T/F
+
+1. Computer Science is the study of computers
+  - F: Computers are a tool of CS
+
+2. The CPU is the "brain" of the computer
+  - T. All basic operations are carried out here
+  
+ 3. Secondary memory is also called RAM
+  - F: RAM is accessed by CPU and is the MAIN memory. Fast and volatile. Secondary memory would be DVDs and USBs
+  
+ 4. All the memory that the computer is currently working on is stored in its main memory
+  - F. CPU
+  
+5 . The Syntax of a language is its meaning and its semantic is its form
+  - T.
+ 
+6. A function definition is a sequence of statements that defines a new command. 
+  - T 
+
+7. A programming environment refers to a place where programmers work
+  - T like in Mac, Windows, Linux
+
+8. A variable is used to give a name to a value so it can be referred to in other places 
+  - T
+  
+9.  A loop is used to skip over a section of a program
+  - F a loop is used to repeat the same action within certain conditions
+
+10. A chaotic function can't be computed by a computer
+  - T very small changes can lead to large changes in the results, so it places limits in the powers of computing
+
+****** Multiple Choice. *******
+
+1. What is the fundamental question of computer science?
+  - B. What can be computed
+  
+2.   
