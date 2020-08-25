@@ -114,12 +114,45 @@ Add an input statement at the end of the program so that it gives the user a cha
   input("Press the <Enter> key to quit")
   
 3.  Modify the avg2.py program (2.5.3) to find the average of the 3 exam scores
+# avg2. py
+# A simple program to average two exam scores
+# Illustrates use of multiple input
+
+def main () :
+    print ("This program computes the average of two exam scores . ")
+    score!, score2 = eval (input ("Enter two scores separated by a comma: ") )
+    average = (score! + score2) I 2
+    print ("The average of the scores is: ", average)
+main ()
 
 4. Modify convert.py program (2.2) with a loop so it runs 5 times before quitting. 
+# convert.py
+# A program to convert Celsius temps to Fahrenheit
+# by: Susan Computewell
+
+def main () :
+    celsius = eval (input ("What is the Celsius temperature? ") )
+    fahrenheit = 9 / 5 * celsius + 32
+    for i in range(5):
+      print ("The temperature is", fahrenheit, "degrees Fahrenheit.")
+    
+main ()
 
 5. Modify convert.py(2.2) so that it computers and prints a Celsius table of temperatures and Fahrenheit equivalents every 10 degrees from 0C to 100C.
 
 6. Modify futval.py(2.7) so that the number of years for the investment is also a user input. Change the final message to reflect correct number of years
+# futval . py
+# A program to compute the value of an investment
+# carried 10 years into the future
+def main () :
+    print ("This program calculates the future value")
+    print ("of a 10-year investment.")
+    principal - eval (input ("Enter the initial principal: ") )
+    apr - eval (input ("Enter the annual interest rate: ") )
+    for i in range (10) :
+        principal = principal * (1 + apr)
+        print ("The value in 10 years is: ", principal)
+main ()
 
 7.  Modify futval.py to compute total accumulation of your investments. Inputs will be amount investedm interest rate and years invested
 
