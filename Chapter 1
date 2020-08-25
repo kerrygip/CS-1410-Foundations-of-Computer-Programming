@@ -37,4 +37,162 @@ T/F
 1. What is the fundamental question of computer science?
   - B. What can be computed
   
-2.   
+2.  An algorithm is like a 
+  - D. Recipe
+  
+3. A problem is intracable when
+  - D. it is not practical to solve
+  
+4. Which of the following is not an example of secondary memory?
+  - A Ram is primary memory
+
+5. Computer languages designed and to be used by humans are 
+  - B High level computer languages
+  
+6. A Statement is
+  B A complete computer command
+  
+7. A compiler is
+  - B used to translate high level language into machine language
+  
+8. By convetion, the statements of a program are often placed in a function called
+  - B main
+  
+9. Which is the following not true of comments?
+  - A. They do make a program more efficient
+  
+10. The items listed in the parenthesis of a function are called 
+  - D. Parameters(B) and Arguments(C) - D - both B and C are correct
+  
+
+***DISCUSSION******
+
+1. Compare and contract the following pair of concepts from the chapter
+  a. Hardware vs Software
+    Hardware is physical
+     Software is programmable
+     
+  b. Algorithm vs program
+    algorithm is the steps
+    program is the written
+    
+  c. Programming language vs natural language
+    programming langauge is like C++ or python
+    natural language is spoken by humans
+    
+  d. high level language vs machine language
+    high level langauge is something easily readable by humans
+    machine language is close to binary if not binary
+    
+  e. interpreter vs compiler
+    interpreter is a program that simulates a computer and understands high level language
+    compiler is program that takes a program and translates it to machine language
+    
+  f. syntax vs semantics
+    syntax is form
+    semantics is grammar
+  
+2. List and explain in your own words the role of each of the 5 basic functional units of a computer in figure 1.1
+      CPU - brain
+      Main Memory - where things are stored and worked on
+      Input device - Information given in, like mouse/keyboard click
+      Output device - Information that needs to be displayed
+      Secondary Memory - permanent storage
+
+3. Write an algorithm for making a peanut butter sandwhich 
+
+4. Can you think of examples where you need to be cautious of changing values? Like chaotic behavior?
+    When working with large data sets 
+
+5. Trace the chaois program from section 1.6 using 0.15 as the input and show the squence of outputs
+
+
+
+*****PROGRAMMING EXERCISES*****
+
+
+1. Type the following commands
+  print ("Hello, world! ") = Hello, world! 
+  print("Hello", "world!") = Helloworld!
+  print (3) = 3
+  print(3.0) = 3.0
+  print (2 + 3) = 5
+  print(2. 0 + 3. 0) = 5.0 
+  print ("2" +"3")  = 23
+  print ( "2 + 3 =", 2 + 3) = 2 + 3 =5 
+  print(2 * 3)  =6
+  print (2 ** 3)  = 8
+  print (7 / 3) = 2.33333333
+  print(7// 3) = 2
+  
+  
+2. Enter and run the chaos program from section 1.6. Try it out with various values of input to see that it functions as described in the chapter
+
+
+3. Modify the chaos program using 2.0 in place of 3.9 as the multiplier in the logistic function. Your modified line of code should look like
+  x = 2.0 * x *1(-x)
+  Run the program for various input values and compare the results to those obtained from the original program. Write a short paragraph describing any differences
+  
+  
+4. Modify the chaos program so that it prints out 20 values instead of 10
+
+5. Modify chaos program so that number of values to print is determined by the user. You have to add a line at the top of the program. 
+n = eval(input("How many numbers should I print? ")
+
+6. The calculation performed in the chaos program can be written in a number of ways that are equivalent. 
+Write a version of the program for each of the following ways of doing the computation
+Have your program print out 100 iterations of the calculation and compare the results
+
+  a. 3.9 * x * (1-x)
+  b. 3.9 * (x-x*x)
+  c. 3.9 * x - 3.9 * x * x
+  
+7. Modify the chaos program so that it accepts two inputs and then prints a table with two columns similar to the one shown in 1.8
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
