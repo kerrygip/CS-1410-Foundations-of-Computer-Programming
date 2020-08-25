@@ -1,0 +1,191 @@
+****EXERCISES*****
+
+
+T/F
+1. The best way to write a program is to immediately type in some code and then debug until it works
+  F. Read the program, understand what it is asking for and then write code in small sections
+  
+2. An algorithm can be written without using a programming langauge
+  T. 
+  
+ 3. Programs no longer require modification after they are written and debugged
+  F. They always need to be maintained
+  
+ 4. Python identifiers must start with a letter or underscore
+  T.
+  
+ 5. Keywords make good variable names
+  T.
+  
+ 6. Expressions are built from literals, variables and operators
+  T. 
+ 
+ 7. In python, X = X=1 is a legal statement
+  T.
+ 
+ 8. Python does not allow the input of multiple values with a single statement
+ F. Python allows for simultaneous assignments
+ 
+ 9. A counted loop is designed to iterate a specific number of times
+ T. 
+ 
+ 10. In a flowchart, Diamonds are used to show statement sequences and rectangles are used for decision points
+ F. Diamonds are for a decision in the program
+ 
+ 
+ ***MULTIPLE CHOICE*****
+ 
+ 1. Which is not a step in the software development process
+  C. Fee Setting
+  
+ 2. What is the correct formula to convert C to F?
+  A. 9/5*(C) + 32
+  
+ 3. The process of describing exactly what a computer program will do to solve a problem is called
+  C. Specification
+ 
+ 4. What is not a legal identifier?
+  C. 2spam
+  
+5. Which is not used in expressions?
+  B. Statements
+
+6. Fragments of code that produce or calculate new data is called?
+  B. Expression
+
+7. Which of the following is not a part of IPO pattern? (Input- Process- Output)
+  B. Program
+  
+8. The template for <variable> in range(<expr>) describes
+  A. a for loop
+ 
+9. Which is the most accurate model of assignment in python?
+  A. sticky note
+
+10. In python, getting user input is done using
+  D. Input
+  
+ ***DISCUSSION***
+ 1. List and describe in your own words the 6 setps in software development
+ Analyze the problem
+ Determine the specifications - what will it accomplish
+ Create a design
+ Implement the Design
+ Test/Debug
+ Maintain the program
+ 
+ 2. Write out the chaos program in 1.6 and identify parts of the program
+  - circle each identifier
+  - underline the expressions
+  - put a comment at the end describing the kind of statements used(output, assignment, input, loop)
+  
+  3. Explain the relationships on
+    Definite Loop - will run a certain number of times
+    For Loop - makes it easier to do a counted loop
+    Counted Loop - counts how many times it will run, ie in range. 
+    
+4. What is the output for   
+      a. i in range(5):
+          print(i*i)
+      b. d in [3,1,4,1,5]:
+        print (d, end="")
+      c. i in range(4):
+        print("Hello")
+      d. i in range(5):
+        print(i,2**i)
+        
+ 5. Why is it a good idea to write in pseudocode rather than jumping to python code
+    You understand what steps you need and to formulate a plan
+    
+ 6. Print function supports other keyword parameters. What does sep do? 
+   
+7. What will happen here?
+  print("Start")
+  for i in range(0):
+    print ("Hello")
+  print("End")
+
+*******PROGRAMMING EXERCISES*****
+
+1. Convert section 2.2 to print an introduction
+
+2. You can run a program by double clicking the program file. You may discover another usability issue. 
+Add an input statement at the end of the program so that it gives the user a chance to read the results. 
+  input("Press the <Enter> key to quit")
+  
+3.  Modify the avg2.py program (2.5.3) to find the average of the 3 exam scores
+
+4. Modify convert.py program (2.2) with a loop so it runs 5 times before quitting. 
+
+5. Modify convert.py(2.2) so that it computers and prints a Celsius table of temperatures and Fahrenheit equivalents every 10 degrees from 0C to 100C.
+
+6. Modify futval.py(2.7) so that the number of years for the investment is also a user input. Change the final message to reflect correct number of years
+
+7.  Modify futval.py to compute total accumulation of your investments. Inputs will be amount investedm interest rate and years invested
+
+8. Modify futval.py to use interest gained at not an APR. The program should prompt user for the yearly rate(rate) 
+and the number of times that the interest is compounded each year(period).
+To compute the value in 10 years, the program will loop 10 periods and accrus rate/period interest on each iteration
+
+9. Write a program to convert F to C
+def main () :
+    farenheit = eval (input ("What is the F temperature? ") )
+    celcius = farenheit- 32 * 5/9
+    print ("The temperature is", celcius, "C.")
+    
+main ()
+
+10. Write a program to convert Km to miles. (1km = 0.62 miles)
+
+11. Write a program that converts whatever you want. 
+
+12. Write an interactive Python calculator
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
