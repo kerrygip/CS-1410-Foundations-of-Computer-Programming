@@ -1,0 +1,38 @@
+********Exercises*****************
+
+
+T/F
+1. Information that is stored and manipulated by computers is called data
+  - 
+2. Since floating point numbers are accurate, they should be used instead of ints
+  - F - you use whatever your data/program needs
+3. Operations, like addition and subtraction are defined in the math library
+  - F - basic operations do not need math library
+4. The number of possible arrangements of i items equal to n!
+  - 
+5. The sqrt function computs the squirt of a number
+  - F - square root 
+6. Float data type is identical to the mathematical concept of a real number
+  - 
+7. Computers represent numbers using base-2 (binary) representations
+  - 
+8.A hardware float can represent a larger range of values than a hardware int
+  - 
+9. Type conversion functions such as float are a safe alternative to eval for getting a number as user input
+  - 
+10. In puthon, 4+5 gets the same result as 4.0+ 9.0
+  - F- you get 9 and 9.0 
+  
+  
+*****************Multiple Choice*********************  
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9
+10.
+
