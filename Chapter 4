@@ -1,0 +1,111 @@
+***********T/F*******************
+
+1. Using graphics . py allows graphics to be drawn in a Python shell window.
+False - apparently 
+
+2. Traditionally, the upper-left comer of a graphics window has coordinates
+(0,0).
+F- (199,199)
+
+3. A single point on a graphics screen is called a pixel.
+T
+
+4. A function that creates a new instance of a class is called an accessor.
+
+5. Instance variables are used to store data inside an object.
+6. The statement myShape . move ( 10 , 20) moves myShape to the point (1 0,20).
+7. Aliasing occurs when two variables refer to the same object.
+8. The copy method is provided to make a copy of a graphics object.
+9. A graphics window always has the title "Graphics Window."
+10. The method in the graphics library used to get a mouse click is read.Mouse.
+
+
+
+**************MULTIPLE CHOICE******************
+
+1. A method that returns the value of an object's instance variable is called
+a(n)
+a) mutator b) function c) constructor d) accessor
+2. A method that changes the state of an object is called a(n)
+a) stator b) mutator c) constructor d) changor
+3. What graphics class would be best for drawing a square?
+a) Square b) Polygon c) Line d) Rectangle
+4. What command would set the coordinates of win to go from (0,0) in the
+lower-left corner to (10, 10) in the upper-right?
+a) win . set coords (Point ( O , O ) , Point ( 10 , 10) )
+b) win . set coords ( ( O , O) , ( 10 , 1 0) )
+c) win . setcoords (O , 0 , 10 , 10)
+d) win . setcoords (Point ( 10 , 10) , Point ( O , O ) )
+5. What expression would create a line from (2,3) to (4,5)?
+a) Line ( 2 , 3 , 4 , 5)
+b) Line ( ( 2 , 3) , (4 , 5 ) )
+c) Line (2 , 4 , 3 , 5)
+d) Line (Point ( 2 , 3 ) , Point (4 , 5 ) )
+6. What command would be used to draw the graphics object shape into the
+graphics window win?
+a) win . draw ( shape) b) win . show ( shape)
+c) shape . draw ( ) d) shape . draw (win)
+7. Which of the following computes the horizontal distance between points
+p 1 and p2?
+a) abs (p 1 -p2 )
+b) p2 . get X ( ) - p 1 . get X ( )
+c) abs (p1 . getY O - p2 . getY ( ) )
+d) abs (p 1 . get X ( ) - p2 . get X ( ) )
+8. What kind of object can be used to get text input in a graphics window?
+a) Text b) Entry c) Input d) Keyboard
+9. A user interface organized around visual elements and user actions is
+called a(n)
+a) GUI b) application c) windower d) API
+10. What color is color rgb ( 0 , 255 , 255) ?
+a) yellow b) cyan c) magenta d) orange
+
+
+
+
+************DISCUSSION****************
+1. Pick an example of an interesting real-world object and describe it as a
+programming object by listing its data (attributes, what it "knows") and
+its methods (behaviors, what it can "do").
+2. Describe in your own words the object produced by each of the following
+operations from the graphics module. Be as precise as you can. Be sure to
+mention such things as the size, position, and appearance of the various
+objects. You may include a sketch if that helps.
+a) Point ( 130 , 1 30)
+b) c = Circle (Point ( 30 , 40) , 25)
+c . setFill ( " blue " )
+c . setOutline ( " red " )
+c) r = Rectangle (Po int ( 20 , 20) , Point (40 , 40) )
+r . setFill ( color_rgb (0 , 255 , 150) )
+r . setWidth (3)
+d) 1 = Line (Point ( 100 , 100) , Point ( 100 , 200) )
+l . set0utline ( " red4 " )
+l . setArrow ( '' f irst '' )
+e) Oval (Point (50 , 50) , Point ( 60 , 100) )
+125
+f ) shape = Polygon (Point (5 , 5 ) , Point ( 10 , 10) , Point (5 , 10) , Point ( 10 , 5) )
+shape . setFill ( " orange " )
+g) t = Text (Po int ( 100 , 100) , " Hello World ! " )
+t . setFace ( " courier " )
+t . setS ize ( 16 )
+t . setStyle ( '' ital i c '' )
+3. Describe what happens when the following interactive graphics program
+runs:
+from graphics import *
+def main ( ) :
+win = GraphWin ( )
+shape = Circle (Point (50 , 50) , 20)
+shape . setOut l ine ( " red " )
+shape . setFill ( " red" )
+shape . draw (win)
+f or i in range ( 10) :
+p = win . getMouse ( )
+c = shape . getCenter ( )
+dx = p . getX ( ) - c . getX ( )
+dy = p . getY ( ) - c . getY ( )
+shape . move (dx , dy)
+win . close ( )
+main ( )
+
+
+
+
