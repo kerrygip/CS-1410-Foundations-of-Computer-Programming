@@ -1,0 +1,165 @@
+*********TRUE/FALSE************
+1. A Python string literal is always enclosed in double quotes.
+  - False can be either single or double as long as you're consistent 
+
+2. The last character of a strings is at position len ( s ) - 1 .
+  - T
+
+3. A string always contains a single line of text.
+  - False, can me multiple lines depending on the writer
+4. In Python "4" + "5" is "45"
+  - True
+
+5. Python lists are mutable, but strings are not.
+  - True
+  
+6. ASCII is a standard for representing characters using numeric codes.
+  - False. It is a standard for the US, not everywhere else
+  
+7. The split method breaks a string into a list of substrings, and join does
+the opposite.
+  - True
+8. A substitution cipher is a good way to keep sensitive information secure.
+  - False - it is a simple program that uses a very weak form of encryption
+  
+  
+9. The add method can be used to add an item to the end of a list.
+  - False - it is append
+  
+10. The process of associating a file with an object in a program is called "reading"
+the file.
+- False. This process is called "opening" the file. Once the file is opened, then it can be read into a program.
+
+
+
+
+******MULTIPLE CHOICE************
+
+
+1. Accessing a single character out of a string is called
+  - A) Slicing
+  
+2. Which of the following is the same as s[0:01]?
+  - C)  [ : len ( s ) - 1 ]
+  
+3. What function gives the Unicode value of a character?
+  - A - ord
+  ord gives numeric code of a string
+  chr gives string a numeric code
+
+4. Which of the following can NOT be used to convert string of digits into a number?
+ - C - str
+
+5. A successor to ASCII includes characters from nearly all written languages is 
+  - C- Unicode
+
+6. Which string method convers all of the characters of a string to upper case?
+  -D - upper
+
+7. The string "slots" that are filled in by the format method are marked by?
+  - D {}
+
+8. Which of the following is NOT a file reading method in Python?
+  - C - readall
+
+9. The term for a program that does its input and outputs with files is 
+  - A File oriented
+
+10. Before reading or writing to a file, the file object must be created via
+  - A- open
+
+
+**********DISCUSSION****************
+1. Given s1 = "spam"
+s2 = "ni!"
+
+Show the results
+  a) " The Knights who say , " + s2  = The knights who say ni!
+  b) 3 * s1 + 2 * s2 = spamspamspamni!ni!
+  c) s1 [1] = p
+  d) s1 [ 1 : 3] = pa
+  e) s1 [2] + s2 [ : 2] = ani
+  f) s1 + s2 [ -1] = spam!
+  g) s1.upper() = SPAM
+  h) s2.upper().ljust (4) * 3 = NI! NI! NI!
+  
+  
+2. Given the same initial statements, write the expression that would produce these reults
+  a) "NI" = s2.upper()
+  b) "ni!spamni!" = s2 + s1+ s2
+  c) "Spam Ni! Spam Ni! Spam Ni!" = (s1.capitalize() + " " +  s2.capitalize() + " ") * 3
+  d) "spam" = s1
+  e) ["sp " ,"m"] = "[" + s1[0:2] + "," + s1[-1] + "]"
+  f) "spm" = s1[:2] + s1[-1]
+  
+  
+3. Show the output
+  a) for ch in " aardvark" :
+      print (ch)
+       = aardvark one letter at a time going down
+  b) for w in " Now is the winter of our discontent . . . " . split():
+      print (w)
+       = prints the statement one word at a time going down
+  c) for w in "Mississippi " .split("i"):
+      print (w , end= " " )
+      =M ss ss pp
+  d) msg = " "
+     for s in "secret".split("e"):
+        msg = msg + s
+     print (msg)
+      = scrt
+       
+  e) msg = " "
+    for ch in " secret " :
+    msg = msg + chr (ord ( ch) + 1 )
+    print (msg)
+    =!tfdsfu!  
+    
+    
+
+4. Show the string that would result from each of the following string formatting
+operations. If the operation is not legal, explain why.
+171
+a) " Looks l ike {1} and {0} for breakfast " . format ( " eggs " , " spam" )
+b) " There is {0} {1} {2} {3}" . format ( ! , " spam" , 4 , " you" )
+c) "Hello {0} " . format ( " Susan" , " Computewell " )
+d) " {0 : 0 . 2f} {0 : 0 . 2f}" . format (2 . 3 , 2 . 3468)
+e) " {7 . 5f} {7 . 5f} " . format (2 . 3 , 2 . 3468)
+f ) "Time left {0 : 02} : {1 : 05 . 2f } " . format ( 1 , 37 . 374)
+g) " {1 : 3} " . format ( " 14" )
+
+
+5. Explain why public key encryption is more useful for securing communications on the Internet than private (shared) key encryption.
+
+Private key - the same key is the same key used for encrypting and decrypting and only usable by the same party. Party must keep it secret from outside world
+Public key - separate but related keys for encrypting and decrypting. Knowing encryption key does not allow you to decrypt. 
+    -Anyone can send a message for encryption, only the party holding decryption key can decipher it
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
