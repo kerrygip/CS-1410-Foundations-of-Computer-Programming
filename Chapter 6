@@ -206,9 +206,9 @@ Of the rain.
 Boom! Boom! Boom!
 
 def ants(number):
-    print("The ants go marching % by %, hurrah! hurrah!", %(number))
-    print("The ants go marching % by %, hurrah! hurrah!", %(number))
-    print("The ants go marching % by %", %(number))
+    print("The ants go marching", number," by ", number, " hurrah! hurrah!")
+    print("The ants go marching", number," by ", number, " hurrah! hurrah!")
+    print("The ants go marching", number," by ", number)
     print("The little one stops to suck his thumb,")
     print("And they all go marching down ...")
     print("In the ground ...")
@@ -218,13 +218,11 @@ def ants(number):
     
 def main():
     number = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"]
-    #while number>=10:
-        #ants(number)
+
     for i in range(10):
-        print ants(number)
-    
-main() 
-It doesn't run, idr how to fill it in one at a time 
+        ants([i])
+main()         
+It doesn't fill in the number list
 
 3. Write definitions for these functions:
 sphereArea(radius) Returns the surface area of a sphere having the
