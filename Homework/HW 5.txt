@@ -1,0 +1,50 @@
+1. ASCII is one way of representing characters and numbers using numeric codes
+T
+
+2. In Python all string literals MUST be enclosed in double quotes.
+F
+
+3. The split method breaks a string into a list of substrings, 
+and the join method does the opposite
+T
+
+4. The add method can be used to add an item to the end of a list
+F
+
+5.The last character of a string s is at position: len(s)-1
+T
+
+6.  What does the python expression 3* "A" evaluate to?
+  it gives an error 
+  "3A" 
+  "AAA" - X 
+  "3AAA" 
+
+7. What is the result of the python expression "3" + "4"?
+  "7" 
+  7 
+  34 
+  "34"  - X
+
+8. What would the following Python program output?
+
+for s in "the quick fox":
+    print(s)
+
+  Output the on the first line, quick on the second line, and fox on the third line. 
+  Output the quick fox on one line. 
+  Output each of the characters (excluding the spaces) in the string with one character per line. 
+X Output each of the characters (including the spaces) in the string with one character per line. - X
+
+9. How do you determine the number of characters in the string s?
+s.length() 
+  s.len() 
+  length(s) 
+  len(s) - X
+
+10. How do you access the letter e in the string s = "the"?
+
+  s[2] - X
+  s[1] 
+  s[3] 
+  s[e] 

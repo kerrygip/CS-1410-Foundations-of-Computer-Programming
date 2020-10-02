@@ -1,0 +1,49 @@
+1. Python variable names MUST start with an alpha character, or an underscore '_".
+T
+
+2. When given an assignment, the first thing you should do is to start coding.
+F
+
+3. In Python, the following is a valid statement:
+Total = Total + count 
+
+T
+
+4. Once you write a program, you will likely never have to modify it again. 
+F
+
+5. Algorithms require knowledge of programming languages. 
+F
+
+6. Which of the following is not a valid Python statement?
+  print('x') 
+  3 + 4 = x - X
+  x = 3 + 4 
+  x = eval(input('enter x: ')) 
+
+7. What does an assignment statement do?
+  It represents an algebraic equation that the computer solves. 
+  It causes the computer to store the result of the statement’s expression 
+in memory so you can use the result in a later Python statement. - Correct
+  It outputs the result of the statement’s expression to the screen. 
+
+  It asks the user to enter a value for the assignment’s expression. - Wrong
+
+
+8. In the software development process, which is the task you should do first?
+Analyze the problem
+
+
+9. Which of the following is a legal identifier?
+  3_points 
+  fieldGoal% 
+  three points 
+  three_points - X
+
+10.When you want to have the user of your program enter a number, which of the following
+should you use?
+
+input() 
+  eval(input()) - X
+  print() 
+  input(eval()) 

@@ -1,0 +1,64 @@
+1. Information can be passed to a function via parameters
+T 
+
+2. programmers usually create their own functions when writing a program.
+T
+
+3. You can call a function from multiple locations in your program.
+T
+
+4. Python functions never modify a parameter. 
+F
+
+
+5. Variable defined in a function are scoped to that function. 
+T
+
+6.How do you determine which actual parameter to assign to each formal parameter?
+The names of the formal parameters must match
+
+the order of the parameters indicate how they are assigned - x
+
+You can only pass in one parameter so it is easy.
+
+you manually assign each parameter at the start of the function.
+
+
+7. When does the value of an actual parameter of a function change?
+Whenever the parameter is a mutable type - X - Wrong 
+
+Only when the parameter is a mutable type and you assign a new value to the formal parameter 
+(i.e., the parameter is a list and you assign it to a new list such as x = [2, 3, 4]).
+
+Only when the parameter is a mutable type and you mutate the formal parameter - Correct
+(i.e., append an item to a list or change the value of an item in the list such as x[0] = 4).
+
+Any change to a formal parameter affects the corresponding actual parameter.
+
+
+8.What is the purpose of the return statement in a function definition?
+
+To cause execution of the function to end and return to the code that called it.
+
+To send a value or values back to the code that called it.
+
+A or B - X
+
+none of the above
+
+
+9. When a function returns a value, usually you want to
+ignore the returned value
+
+store the result in a variable or use the result in an expression - X
+
+
+10. What variable names does a function have access to?
+
+All variables used in a program.
+
+Only variables created in that function
+
+Only parameters passed into the function
+
+parameters that are passed into the function and any variables created in the function - X

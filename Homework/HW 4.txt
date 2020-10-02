@@ -1,0 +1,56 @@
+1. Using graphics.py allows graphics to be drawn in the phython shell window. 
+F
+import graphics
+not using graphics py
+
+2. A single point on a graphics screen is called a pixel
+T
+
+3. All graphics windows have the same width and height
+F
+
+4. A graphics window is always titled "Graphics Window" 
+F
+
+5. If I create 2 windows and want to have access to them both, 
+I have to assign them to different variable. 
+T
+
+6. If we have created a Circle object with the name c, how do we get the radius of the circle?
+  radius(c) 
+  getRadius(c) 
+  c.radius() 
+  c.getRadius()  - X
+
+7. Which of the following best describes what an object is?
+  it is a set of data 
+  is it shape 
+  it is a set of methods
+  It is a set of data and the associated methods to get/set that data - X
+
+8. If you have a Point object p and a GraphWin object win, 
+how do you make the point p appear in the GraphWin window?
+  draw() 
+  p.draw(win)  - X
+  win.draw(p) 
+  draw(win.p) 
+
+
+9. If we import the graphics module using the statement import graphics, 
+how do we create a Point object?
+import graphics
+not from graphics import *
+ p=Point(2,3) 
+  p=graphics.Point(2.3) - X
+  p=graphics.Point() 
+  p=create(Point(2,3) 
+
+
+10. How many Point objects does the following code create?
+p1 = Point(2, 3)
+p2 = Point(4, 5)
+p3 = p1
+p4 = p2
+
+
+2

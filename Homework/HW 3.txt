@@ -1,0 +1,75 @@
+1. In Python, what is the result of 2%5? 
+2
+
+2. What about 2.5?
+0.4
+
+3. 2.0+5//2?
+4.0
+
+4. 2//5
+0
+
+5.2%5?
+2
+
+6.Using the example from pages 64 and 65 of the book, change and 
+enter the code below  so that you ask the user for the number of 
+$1 bills, 5$ bills, $10 bills, and $20 bills they have in their wallet. 
+then print out how much money they have.  
+I have given you a sample of  first part of the code below...
+You must enter a complete python program in order to get credit. 
+I plan to just cut/paste your solution into IDLE to validate that it works. 
+
+def main():
+    print("Dollar Counter")
+    print()
+    print("please enter the count for each of the denominations you have.")
+
+< YOUR CODE GOES HERE> 
+
+
+
+def main():
+    print("Dollar Counter")
+    print()
+    print("Please enter the count for each of the denominations you have.")
+
+    print()
+
+    print()
+
+
+    dollar = int(input("How many $1 bills do you have?: ")) 
+    dollar_fives = int(input("How many $5 bills do you have?: "))
+    dollar_tens = int(input("How many $10 bills do you have?: "))
+    dollar_twenty = int(input("How many $20 bills do you have?: "))
+
+print()
+    print("You have a total of $", dollar + dollar_fives*5 + 
+	dollar_tens*10 + dollar_twenty*20, "dollars")
+    print("Big ballin")
+main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

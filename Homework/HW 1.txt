@@ -1,0 +1,45 @@
+1 RAM is considered secondary memory.
+T
+
+2. Variable names are unimportant, so you can use whatever variable names you want
+F. 
+
+3. Syntax refers to the form, whereas semantics refers to semantics or meaning
+T
+
+4. A function can be invoked by typing in the name of the function followed by parenthesis
+T
+
+5. The CPU is considered to the brains of the computer 
+T.
+
+6. An Algorithm is
+ a step-by-step process that may or may not solve a problem 
+  a step-by-step process for solving a problem that is guaranteed to complete within an hour on a computer 
+  a mathematical function that is the opposite of a logarithm function 
+  a step-by-step process that will eventually solve a problem  - X
+
+7.  Why don't we programs computers using a common human language such as English, 
+Spanish or Arabic?
+Human languages are complex and often ambiguous or imprecise.  - X
+  So programmers can make more money. 
+  To make it more challenging for programmers. 
+
+
+
+8. The python print function
+causes text to be printed on the screen - X
+  causes your printer to print out a page of paper 
+  saves data to a file on your disk 
+
+9. A computers CPU executes instructions that are written in 
+  a subset of English 
+  Python 
+  Binary, 0's and 1's  - X
+  pseudo code 
+
+10. An algoritm nust be 
+ Written in English 
+  written in a programming language like Python 
+  none of these answers - X
+  executed by a computer 
