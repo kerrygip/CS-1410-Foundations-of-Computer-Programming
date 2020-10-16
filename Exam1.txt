@@ -1,0 +1,537 @@
+1. Which of the following is used in Python to execute statements multiple times?
+if
+for - X
+input
+print
+
+2. Which of the following is NOT a valid python statement?
+print("x")
+x = x*2
+x+2 = y    - - X
+y = eval(intput(what is your age)
+
+3. Which of these (1, 2, 3, or 4) is the output from the following code segment?
+
+ 
+
+for x in range (4):
+
+    print ("hello", end = " ")
+
+ 
+hellohellohellohello
+
+hello
+
+    hello
+
+    hello
+
+    hello
+
+hello hello hello hello  - X
+
+hello
+
+4. what will print if the follow code segment is executed?
+
+ 
+
+for x in range (0):
+
+    print (x, end="")
+
+print("end")
+
+0end
+end - X
+nothing
+0
+
+5. When you want to have the user of your program enter of the number, 
+which of the following should you use?
+
+
+x= input()
+x = eval(input()) - X
+x = input(eval())
+x = print()
+
+
+
+6. What will be printed as a result? 
+12345
+
+012345
+
+1530
+
+Nothing
+
+7. what will be the LAST number printed out for the loop below?
+
+for i in range (10):
+
+     print (i)
+
+10
+11
+9 - X
+0
+
+8. If you want to use the cos function in the math library, how should you write the import statement?
+import cos
+import math - X
+from math import cos
+import is not needed because cos is built in
+
+9. what will the output of the following code segment be for an input of 4?
+
+ 
+
+def main():
+    x = eval (input())
+    sum = 0
+    for y in range (x):
+        sum = sum + y*y
+    print (sum)
+main()
+
+10
+30
+14 - X
+0
+
+
+10. What is the result of 3/5?
+1
+2
+0.6 - X
+0
+
+
+11. What is the result of float(int(15.5))?
+16
+15.0 - X
+15
+16.0
+
+12. What is result of 5//2?
+2.5
+3
+2 - X
+0
+
+
+13. What is 3.0+5//3
+4
+4.0 - X
+4.667
+2
+
+
+14. In the following code segment, 
+what Python statement would be used to return the x value for the center of circle1?
+
+import graphics
+from graphics import *
+
+def main():
+   win1 = GraphWin('Shapes', 500, 500)
+
+   center1 = Point(100,100)
+
+   circle1=Circle(center1, 30)
+   circle1.draw(win1)
+   circle1.setFill("red")
+
+x = circle1.getX()
+
+x = circle1.Center
+
+x = center1.getX() - X correct
+
+x = circle1.center()- X WRONG
+
+
+15. If we import the graphics module using the statement 
+import graphics, how do we create a point?
+
+x = Point()
+x = graphics.Point()
+x = graphics.Point(1,5) - X
+x = create(Point(1,5))
+
+16. If you create a GraphiWin object and dont reset the coords, where is (0,0)?
+top right
+top left - X
+bottom right
+bottom left 
+
+
+17. In the graphics.py, which of the following classes have draw methods?
+all classes
+GraphWin class
+point, line circle oval rectable text and entry class - X
+none
+
+18. Given the following, what statement is needed to draw the circle
+win1 = GraphWin("Main", 500, 400)
+
+circle = Circle (Point (10,10), 30)
+
+
+
+win1.draw(circle)
+
+win1,.draw()
+
+circle.draw(win1) - X
+
+win1.show(all)
+
+
+19. What does the GraphWin getMouse() method return??
+nothing, that is not a valid method name
+
+2 numeric values
+
+a GraphWin Object
+
+a Point object - X
+
+20.What does the following Python expression output?
+
+print("{}={:5.2f}".format("pi", 3.14159)) 
+
+
+pi = 3.1415
+
+pi = 3.1
+
+pi = 3.14 - X
+
+error
+
+21. Which of the following Python statements would print just the 'e' 
+given the code segment below?
+
+s = "hello world"
+
+print (s[2])
+
+print (s)
+
+print s[1]
+
+print (s[1]) - X
+
+22. What does the Python expression 4 * "Y" evaluate to?
+
+"4Y"
+
+"YYYY" - X
+
+"4Y4Y4Y4Y"
+
+runtime error
+
+
+
+23.Before you can read or write a file, a file object has to be created. 
+Assuming the name of the file is "foo", 
+which of these statements is a valid way to create a file object for reading?
+
+
+f = open ("foo", "w")
+
+f = open (foo, "r")
+
+f = open ("foo", 'r') - X
+
+f = foo.open()
+
+
+24. what will the following python statement print?
+
+print ("looks like {2} and {0} for you today".format("spam", "eggs", "toast"))
+
+looks like toast and spam for you today - X
+
+looks like spam and eggs for you today
+
+looks like eggs and toast for you today
+
+syntax error
+
+
+25. What would the following Python program output?
+
+items = "the,quick,fox".split(",")
+
+for s in items:
+
+   print(s)
+
+Output the, on the first line, quick, on the second line, and fox, on the third line.
+
+Output the on the first line, quick on the second line, and fox on the third line. - X
+
+Output the quick fox on one line.
+
+Output each character in the string, excluding the commas, with one character per line.
+
+
+
+26. What is the purpose of the return statement in a function definition?
+
+
+to return control to the calling function
+
+to return a value to the calling function
+
+both of the above
+
+none of the above
+
+27. what is printed as a result of the following code being executed?
+
+ 
+
+def div_by_2(x):
+
+   return (x//2)
+
+def main():
+
+   a = 4
+
+   print (div_by_2(a))
+main()
+
+2 - X
+4
+0
+runtime error
+
+
+28. When a function returns a value, the options for the caller are to
+ignore the return value
+
+use the result as part of an expression (e.g., x = y + math.sqrt(5))
+
+directly assign it to a variable (e.g., x = math.sqrt(5))
+
+all of the above - X?
+
+
+29. What variable names does a function have access to?
+All variables used in a program.
+
+Only variables created in the function.
+
+Only the parameters passed to the function.
+
+Parameters that are passed to the function and any variables created in the function. - X
+
+
+30. 
+What will the following python code print?
+
+ 
+
+def f(x):
+
+   x = x*2
+
+    print (x, y)
+
+    return(x*2)
+
+ 
+
+def main():
+
+   y = 3
+
+   f(y)
+
+3 3
+6 3
+6 6
+error, y is not defined - X
+
+FILL IN THE BLANKS
+
+
+31. Write the line of code to open "foo.bar" for writing and assigning it to filePtr
+def main():    filePtr = open("foo.bar", "w")main() 
+
+32. the output of "10" * 3 is
+101010
+
+33. State the operator used for string or list:
+concantenation = +
+repitition = *
+slicing = [:]
+indexing = []
+
+
+34. The most appropriate Python data type for storing the value of PI is
+float
+
+
+
+35. A ___ is used to give a name to a value so it can be 
+referred to in other places within your program.
+
+variable
+
+36. Assume string s = 'DaveOgle'. 
+write the line of code to print out the 3rd and 4th characters of the string s
+print(s[2:4])
+
+
+37. You can think of an object oriented object as a sort of of 
+custom data type that encapsulates (combines) both methods  and____________________.
+function? - nah
+variables - X WRONG
+data
+
+38. ASCII and Unicode are compatible standards that are used for 
+specifying the correspondence between characters and the underlying codes. 
+Python provides the __________ function  
+(used in your lab assignment) to translate a given Unicode to a character.
+chr() - chr() is used for converting an Integer to a Character - 
+ord() - used to do the reverse, i.e, convert a Character to an Integer - ord()
+
+
+39. The last character of a strings is at position len(s)-1. 
+Write the line of code necessary to print the last character of string s. 
+
+def main():    
+	s = string    
+	print(s[-1])
+main()
+
+
+40. What is the output of the following block of code:
+
+ 
+
+for word in "Computer Science Rocks!".split(","):
+
+    print(word)
+Computer Science Rocks! 
+
+41. Choose ONE of the following programming assignments. 
+You can upload your answer via file upload, 
+or cut and paste it, 
+(note that cut and paste does NOT preserve indentation, 
+so you will have to go back and use the space bar to get the correct indentation)
+
+
+Assignment 1: (choose this OR assignment 2)
+
+Write a function called calculatePi. 
+The function has 1 formal parameter 'n' and it returns the approximation of pi (floating point) 
+based on the following formula. 
+the main routine will print the result of the estimation in a field that 
+is 10 spaces with with 5 places to the right of the decimal point (fixed
+
+
+
+
+Assignment 2: (choose this OR the previous assignment)
+
+Consider a file that contains a list of numbers (1 per line):
+
+10
+
+5
+
+…
+
+You can assume the file has 1 number per line. 
+Write a parameterized function that takes in a file name as a parameter, 
+reads the file, calculates the factorial of each number, 
+and displays a formatted output as follows:
+
+ 
+
+Factorial of 10 : 3628800
+
+Factorial of 5 : 120
+
+def factorial(fileName):
+    infile = open(fileName, "r")
+    
+    for line in infile:
+        number = int(line)
+        factorial = 1
+
+        for i in range(number,0,-1):
+            factorial = factorial * i     
+        
+        
+        if number == 0:
+            print("The factorial of 0 is 1") 
+        else:
+            print("The factorial of ", number, " is ",
+                  factorial)
+        
+        
+        
+def main():
+    
+    
+    infileName = input("What is the name of the file? ")
+    factorial(infileName)
+    
+main()
+
+
+
+
+
+43 Pick an example of an interesting real-world object (like a bike, a TV, a car, etc. ) 
+and describe it as a programming object by listing its data 
+(attributes, what it “knows”) and its methods (behaviors, what it can “do”). 
+You are welcome to use pseudocode, plain English, or Python.
+UML?
+Class: animal
+
+Class attributes
+-name: string
+-height: double
+-weight : double
+-speed : double
+
+
+
+Class function
++ animal(): void
++move(distance: int): void
++eat(): void
++attack():
++setName(newName:string):void
++getName():string
+
+
+Class: Car
+
+Class attributes
+- door: int
+- wheels: int
+- body: string
+- engine: bool
+
+Class function
++ accelerate
++ decelerate
++ turn left
++ turn right
++ reverse
++ brake
++ turn on
++ turn off
