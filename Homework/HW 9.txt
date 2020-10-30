@@ -1,0 +1,25 @@
+1 new object are created by invoking the constructor
+T
+
+2.a docstring and a comment are the same things
+F
+
+3. Method names should always start with one or two underscores "_"
+F
+
+4. Instance Variables go away once a method terminates
+T
+
+5. In a python class, the constructors is called _init_
+T
+
+6. If you have an instance m of a class named MyClass, 
+how would you call the method m1 of the MyClass class?
+
+Myclass.m1()
+
+m.m1() - X
+
+m1(m)
+
+MyClass(m1)
