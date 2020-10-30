@@ -1,0 +1,71 @@
+1. A try statement can only catch one error
+T
+
+2. The phrase "input validation" is just anotehr way of saying "ask for user input"
+F
+
+3. the math.sqrt function can calculate the square root of a negative number
+F
+
+4. the following condition is not allowed in python
+
+x <= y <=z
+F
+
+5. A simple decision can be implemented using an 'if' statement
+T
+
+6. What is the purpose of an if statement?
+To execute code repeatedly.
+
+to assign a boolean
+
+To chose whether or not to execute certain code
+
+all of the above - X
+
+
+7.Which of the following statements is true?
+
+An if statement must have an else statement.
+
+An if statement must have an elif statement.
+
+An if statement must have both an elif and an else statement.
+
+An else statement must have a matching if statement. - X
+
+
+8.Which of the following Python statements is invalid?
+
+if x != 4:
+
+if x = 4: - X
+
+if 2 < x < 4:
+
+if x == 4:
+
+
+9. What is the purpose of the statement
+
+if __name__ == '__main__':?
+
+To check if the name of a Python program is main.
+
+To check if a Python file was executed or imported.
+
+It may be an error unless the program included a line that set __name__ to a string value.
+
+none of the above - X
+
+
+10. Which of the following statements is true?
+
+An if statement may have another if statement indented beneath it.
+
+An if statement may have a for loop nested inside it.
+
+A for loop may have an if statement nested inside it.
+
+all of the above - X

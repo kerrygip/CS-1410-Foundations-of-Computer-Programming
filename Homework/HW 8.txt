@@ -1,0 +1,103 @@
+the following two statements are equivalent 
+
+
+a and (b or c),
+
+(a and b) or (a and c)
+
+T
+
+
+2. a Python while implements a definite loop
+F
+
+3. a while loop is a POST TEST loop
+
+F
+
+4. The counted loop pattern implements a definite loop
+T.
+
+5. The easiest way to iterate through the lines of a file in Python is always to use a while loop
+F
+
+6.Which of the following statements is true about the Python expression x == 3 or 4?
+
+
+it will always be true
+
+it will always be false
+
+It is an invalid statement and the Python interpreter will indicate it is a syntax error. - X
+
+It will be true if x is 3 or if x is 4, and false for any other values.
+
+
+
+7. If you need to write a loop where a sentinel value indicates you want to stop 
+executing the loop, which statement should you use?
+for
+
+while - X
+
+if
+
+else
+
+
+
+8. Which of the following can be treated as a Boolean expression?
+An int expression.
+
+a float expression
+
+the result of a comparison operator
+
+all of the above - X
+
+
+9. What is short-circuit evaluation in Python?
+
+It is when your program has an error and causes a short circuit in the CPU.
+
+It is when Boolean expressions are not fully evaluated because the 
+result of the expression can be determined without checking the full expression. -X
+
+It is a way of writing Boolean expressions so they are shorter.
+
+none of the above
+
+
+10. If you need to write a loop that will execute a fixed number of times,
+which statement should you use?
+
+
+if
+
+while
+
+for -X
+
+else
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
