@@ -1,1 +1,193 @@
+True/False
+1. Linear search requires a number of steps proportional to the size of the list
+being searched.
+- T
 
+2. The Python operator in performs a binary search.
+- F
+
+3. Binary search is an nlogn algorithm.
+- F log2(n)
+
+4. The number of times n can be divided by 2 is exp( n).
+- F log2(n)
+
+5. All proper recursive definitions must have exactly one non-recursive base
+case.
+- F, can have more than one 
+
+6. A sequence can be viewed as a recursive data collection.
+- T
+
+7. A word of length n has n! anagrams.
+- T - last sentence of 13.2.4
+
+8. Loops are more general than recursion.
+- F
+
+9. Merge sort is an example of an n log n algorithm.
+- T
+
+10. Exponential algorithms are generally considered intractable.
+- T
+
+
+Multiple Choice
+1. Which algorithm requires time directly proportional to the size of the input?
+a) linear search b) binary search
+c) merge sort d) selection sort
+-A
+
+2. Approximately how many iterations will binary search need to find a value
+in a list of 512 items?
+a) 512 b) 256 c) 9 d) 3
+- D
+
+3. Recursions on sequences often use this as a base case:
+a) 0 b) 1 c) an empty sequence d) None
+- B
+
+4. An infinite recursion will result in
+a) a program that "hangs"
+b) a broken computer
+c) a reboot
+d) a run-time exception
+- D
+
+5. The recursive Fibonacci function is inefficient because
+a) it does many repeated computations
+b) recursion is inherently inefficient compared to iteration
+c) calculating Fibonacci numbers is intractable
+d) fibbing is morally wrong
+- A
+
+6. Which is a quadratic time algorithm?
+a) linear search b) binary search
+c) Tower of Hanoi d) selection sort
+- D
+
+7. The process of combining two sorted sequences is called
+a) sorting b) shuffling c) dovetailing d) merging
+- D
+
+8. Recursion is related to the mathematical technique called
+a) looping b) sequencing c) induction d) contradiction
+- C
+
+9. How many steps would be needed to solve the Tower of Hanoi for a tower
+of size 5?
+a) 5 b) 10 c) 25 d) 31 
+- D
+
+10. Which of the following is not true of the halting problem?
+a) It was studied by Alan Turing.
+b) It is harder than intractable.
+c) Someday a clever algorithm may be found to solve it.
+d) It involves a program that analyzes other programs. 
+- C
+
+Discussion
+1. Place these algorithm classes in order from fastest to slowest: nlogn, n, n^2, logn, 2^n.
+logn , n , nlogn , n^2, 2^n
+
+2. In your own words, explain the two rules that a proper recursive definition
+or function must follow.
+- defined base case(s) = 0
+- need to be able to get to base case 
+
+
+3. What is the exact result of anagram("foo")?
+ofo? for one?
+oof, foo, ofo, forever unless you define a base case 
+
+4. Trace recPower (3, 6) and figure out exactly how many multiplications it
+performs.
+5? 
+
+5. Why are divide-and-conquer algorithms often very efficient? 
+Time
+
+Programming Exercises
+1. Modify the recursive Fibonacci program given in this chapter so that it
+prints tracing information. Specifically, have the function print a message
+when it is called and when it returns. For example, the output should
+contain lines like these:
+Computing fib(4)
+0 0 0
+Leaving fib(4) returning 3
+Use your modified version of fib to compute fib(10) and count how
+many times fib(3) is computed in the process.
+2. This exercise is another variation on "instrumenting" the recursive Fibonacci program to better understand its behavior. Write a program that
+counts how many times the fib function is called to compute fib (n)
+where n is a user input.
+Hint: To solve this problem, you need an accumulator variable whose
+value "persists" between calls to fib. You can do this by making the count 
+an instance variable of an object. Create a FibCounter class with the
+following methods:
+__ ini t __ (self) Creates a new FibCounter, setting its count instance variable to 0.
+getCount (self) Returns the value of count.
+fib(self , n) Recursive function to compute the nth Fibonacci number. It
+increments the count each time it is called.
+resetCount (self) Sets the count back to 0.
+3. A palindrome is a sentence that contains the same sequence of letters reading it either forwards or backwards. A classic example is '1\.ble was I, ere
+I saw Elba." Write a recursive function that detects whether a string is a
+palindrome. The basic idea is to check that the first and last letters of the
+string are the same letter; if they are, then the entire string is a palindrome
+if everything between those letters is a palindrome.
+There are a couple of special cases to check for. If either the first or
+last character of the string is not a letter, you can check to see if the rest
+of the string is a palindrome with that character removed. Also, when you
+compare letters, make sure that you do it in a case-insensitive way.
+Use your function in a program that prompts a user for a phrase and
+then tells whether or not it is a palindrome. Here's another classic for
+testing: '1\. man, a plan, a canal, Panama!"
+4. Write and test a recursive function max to find the largest number in a list.
+The max is the larger of the first item and the max of all the other items.
+497
+5. Computer scientists and mathematicians often use numbering systems other
+than base 10. Write a program that allows a user to enter a number and a
+base and then prints out the digits of the number in the new base. Use a
+recursive function baseConversion(num, base) to print the digits.
+Hint: Consider base 10. To get the rightmost digit of a base 10 number,
+simply look at the remainder after dividing by 10. For example, 153 % 10
+is 3. To get the remaining digits, you repeat the process on 15, which is
+just 153 I I 10. This same process works for any base. The only problem
+is that we get the digits in reverse order (right to left).
+The base case for the recursion occurs when num is less than base and
+the output is simply num. In the general case, the function (recursively) 
+prints the digits of num I I base and then prints num % base. You should
+put a space between successive outputs, since bases greater than 10 will
+print out with multi-character "digits." For example, baseConversion ( 1234,
+16) should print 4 13 2.
+6. Write a recursive function to print out the digits of a number in English.
+For example, if the number is 153, the output should be "One Five Three."
+See the hint from the previous problem for help on how this might be
+done.
+7. In mathematics, e;: denotes the number of different ways that k things
+can be selected from among n different choices. For example, if you are
+choosing among six desserts and are allowed to take two, the number
+of different combinations you could choose is e�. Here's one formula to
+compute this value:
+e
+n n!
+k = k!(n- k)!
+This value also gives rise to an interesting recursion:
+e
+n - e
+n-1 + e
+n-1
+k - k-1 k
+Write both an iterative and a recursive function to compute combinations
+and compare the efficiency of your two solutions. Hints: When k = 1,
+e;: = n and when n < k, e;: = 0.
+8. Some interesting geometric curves can be described recursively. One famous example is the Koch curve. It is a curve that can be infinitely long in
+a finite amount of space. It can also be used to generate pretty pictures.
+The Koch curve is described in terms of "levels" or "degrees." The
+Koch curve of degree 0 is just a straight line segment. A first degree curve
+is formed by placing a "bump" in the middle of the line segment (see
+Figure 13.6). The original segment has been divided into four, each of
+which is � the length of the original. The bump rises at 60 degrees, so it
+forms two sides of an equilateral triangle. To get a second-degree curve,
+you put a bump in each of the line segments of the first -degree curve.
+Successive curves are constructed by placing bumps on each segment of
+the previous curve.
