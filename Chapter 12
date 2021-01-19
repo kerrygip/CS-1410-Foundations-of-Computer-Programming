@@ -1,35 +1,63 @@
 True/False
 1. Object -oriented design is the process of finding and defining a useful set
 of functions for solving a problem.
+- F useful set of classes
+
 2. Candidate objects can be found by looking at the verbs in a problem description.
+- F 
+
 3. Typically, the design process involves considerable trial and error.
+ - T 
+
 4. GUis are often built with a model-view architecture.
+ - T 
+
 5. Hiding the details of an object in a class definition is called instantiation.
+- F (encapsulation)
+
 6. Polymorphism literally means "many changes."
+- F (many forms)
+
 7. A superclass inherits behaviors from its subclasses.
+- F
+
 8. GUis are generally easier to write than text-based interfaces. 
+- F
 
 
 Multiple Choice
 1. Which of the following was not a class in the racquetball simulation?
 a) Player b) SimStats c) RBallGame d) Score
+ - D
+
 2. What is the data type of server in an RBallGame?
 a) int b) Player c) bool d) SimStats
+- B
+
 3. The isOver method is defined in which class?
 a) SimStats b) RBallGame c) Player d) PokerApp
+- B
+
 4. Which of the following is not one of the fundamental characteristics of
 object -oriented design/programming?
 a) inheritance b) polymorphism
 c) generality d) encapsulation
+- C
+
 5. Separating the user interface from the "guts" of an application is called
 a(n) approach.
 a) abstract b) object -oriented
 c) model-theoretic d) model-view 
-
+- D
 
 Discussion
-1. In your own words, describe the process of 000.
+1. In your own words, describe the process of 00D.
+OOD is the process of developing classes to solve a problem or to create a program
+
 2. In your own words, define encapsulation, polymorphism, and inheritance. 
+Encapsulation: Black box, hides the in depth data from the user, just shows the pretty features
+Polymorphism - Virtual voids apparently, idk how else it would be applied
+Inheritenece - The child class is inheriting public features of the parent class. 
 
 
 Programming Exercises
